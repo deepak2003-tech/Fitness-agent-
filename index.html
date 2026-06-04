@@ -1,0 +1,31 @@
+<html>
+<head>
+
+</head>
+<body>
+
+<h1>  fitness agent </h1>
+
+<script>
+  window.wxOConfiguration = {
+    orchestrationID: "ae454c08f92d43ebab74765d0ddb4d08_8639e8c2-b284-40d7-881f-8da6709c8b6a",
+    hostURL: "https://au-syd.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:au-syd:a/ae454c08f92d43ebab74765d0ddb4d08:8639e8c2-b284-40d7-881f-8da6709c8b6a::",
+    chatOptions: {
+        agentId: "f87d00b4-8f03-4c25-bbf6-497c0999f1b3", 
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+</script>
+
+</body>
+</html>
