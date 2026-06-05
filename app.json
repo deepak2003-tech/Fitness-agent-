@@ -1,0 +1,21 @@
+{
+  "name": "Fitness Buddy - PS13",
+  "description": "AI-powered Fitness Buddy for home workouts, motivational tips, basic nutrition guidance and habit building using IBM watsonx Orchestrate",
+  "version": "1.0.0",
+  "problem_statement": "PS-13",
+  "category": "Fitness and Wellness",
+  "tech_stack": [
+    "IBM watsonx Orchestrate",
+    "IBM Granite-13b-instruct-v2",
+    "IBM Cloud Lite"
+  ],
+  "features": [
+    "Recommend home workouts based on user input",
+    "Provide motivational tips and daily fitness inspiration", 
+    "Suggest simple, nutritious meal ideas",
+    "Encourage habit-building and consistency"
+  ],
+  "author": "deepak2003-tech",
+  "repository_url": "https://github.com/deepak2003-tech/Fitness-agent-",
+  "disclaimer": "Provides general fitness and basic nutrition information only. Not medical advice. For health conditions, consult a healthcare professional."
+}
