@@ -1,0 +1,34 @@
+<html> 
+ <head> 
+
+ </head> 
+ <body> 
+ <h1> FitnessBuddy chatbot </h1>
+
+<head> 
+    
+ <script>
+  window.wxOConfiguration = {
+    orchestrationID: "ae454c08f92d43ebab74765d0ddb4d08_a444975c-55aa-4552-9851-46cbee4eb03b",
+    hostURL: "https://eu-de.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:eu-de:a/ae454c08f92d43ebab74765d0ddb4d08:a444975c-55aa-4552-9851-46cbee4eb03b::",
+    chatOptions: {
+        agentId: "7644b46d-5419-4b3a-a875-cd0a5d88a218", 
+        agentEnvironmentId: "5a06f718-2614-4363-ae0c-6e3b8d0a5df2",
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+</script>   
+ 
+ </head>
+ </body> 
+ </html>
